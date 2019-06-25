@@ -15,7 +15,7 @@ def linkExtractor(url):
 
     a = []
 
-    for link in soup.find_all('a', attrs={'href': re.compile("^http://")}): #for only the external links
+    for link in soup.find_all('a', attrs={'href': re.compile("^http://")}): # only for the external links
     
     #for link in soup.find_all('a', href=True):    #for all the links
         
